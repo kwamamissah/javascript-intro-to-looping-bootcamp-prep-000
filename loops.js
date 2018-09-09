@@ -10,12 +10,13 @@ function forLoop(array) {
 }
 
 function whileLoop(number) {
-  number = "";
+ var n = "";
   
-  while (number > 0) {
-    console.log(--number);
+  while (n > 0) {
+    console.log(--n);
   }
-  if(number === 0) {
+  if(n === 0) {
     console.log("done");
   }
+  return number;
 }
